@@ -4,7 +4,7 @@
 Paleta de Cores
 
 #0b2e3e azul escuro
-#81b6ca azul claro
+#a9d5e5 azul claro
 #3a778e azul escuro medio
 #5a97af azul acinzentado
 #859aa2 cinza azulado 
@@ -19,7 +19,7 @@ Paleta de Cores
 }
 
 body, html {
-    background-color: #0b2e3ec9;
+    background-color: #859aa2;
     height: 100vh;
     width: 100vw;
 }
@@ -37,7 +37,7 @@ section#login {
     transform: translate(-50%,-50%);
     overflow: hidden;
 
-    background-color: #81b6ca;
+    background-color: #a9d5e5;
     width: 250px;
     height: 500px;
     border-radius: 20px;
@@ -59,4 +59,13 @@ section#login > div#formulario {
     display: block;
     padding: 10px;
 
+} 
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font: 0.8em;
 } 
