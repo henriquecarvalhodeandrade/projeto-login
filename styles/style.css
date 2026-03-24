@@ -1,9 +1,59 @@
 @charset "UTF-8";
 
-/* Paleta de Cores */
+/* 
+Paleta de Cores
 
-/* #0b2e3e 
-#81b6ca
-#3a778e
-#5a97af
-#859aa2 */
+# azul escuro
+#81b6ca azul claro
+#3a778e azul escuro medio
+#5a97af azul acinzentado
+#859aa2 cinza azulado 
+
+*/
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #0b2e3e;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+
+    background-color: #81b6ca;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #0b2e3e url(../images/pexels-jonathanborba-4431922\(1\).jpg) no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 200px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+
+} 
